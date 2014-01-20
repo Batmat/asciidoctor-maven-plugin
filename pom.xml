@@ -249,5 +249,17 @@
           </plugins>
         </pluginManagement>
     </build>
+
+    <!-- I normally never ever do that kind of thing, but here just for a special testcase :-)
+    see https://github.com/asciidoctor/asciidoctor/issues/494#issuecomment-32671620 
+    Please, never do that, use a repo manager :-).
+    -->
+    <repositories>
+        <repository>
+            <id>bintray</id>
+            <name>bintray</name>
+            <url>http://dl.bintray.com/lordofthejars/maven</url>
+        </repository>
+    </repositories>
 </project>
 
